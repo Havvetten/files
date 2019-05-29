@@ -1,0 +1,43 @@
+/* Common styles used in our App */
+/* cm is short for common */
+
+/* GRID (layout) */
+.cm-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-gap: 20px;
+    align-items: stretch;
+}
+
+/* CARD */
+.cm-card{
+    display: flex;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+/* SHADOW */
+.cm-shadow{
+    box-shadow: 2px 2px 6px rgba(209,209,209,1);
+}
+.cm-shadow-wb{
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 6px rgba(209,209,209,1);
+}
+
+/* common-button */
+.cm-button{
+    background-color: #589bea;
+    border: none;
+    color: #ffff;
+    text-align: center;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+/* Header Logo */
+.cm-logo{
+    height: 40px;
+}
+
